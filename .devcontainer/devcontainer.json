@@ -1,0 +1,8 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "extensions": [
+        "GitHub.copilot",
+        "bierner.markdown-mermaid"
+    ],
+    "postCreateCommand": "npm install -g @vue/cli && curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash && curl -fsSL https://aka.ms/install-azd.sh | bash"
+}
